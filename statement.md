@@ -2,41 +2,50 @@
 
 ## Project Title
 
-Student Grade Management System Using Python
+Student Grade Management System
 
 ## Problem Statement
 
-Managing student academic records manually can be time-consuming and may lead to errors while calculating averages and grades.
+Managing student marks manually can take time and may lead to mistakes while calculating averages and grades.
 
-This project provides a simple Python-based system for managing student records and academic performance.
+This project provides a simple Python-based system to store and manage student academic records.
 
-## Objectives
+## Scope of the Project
 
-- Store student academic information.
-- Add, view, search, update and delete student records.
-- Calculate student averages automatically.
-- Assign grades based on average marks.
-- Identify the highest-scoring student.
-- Store student information permanently using JSON.
+The system is designed to manage basic student information and marks for Python, Maths, and English.
 
-## Scope
-
-The system is designed for basic academic record management. It currently manages marks for Python, Maths and English.
-
-The project uses Python and JSON file storage and is intended as a simple command-line application.
+It can be used to add, view, search, update, and delete student records.
 
 ## Target Users
 
+The project is mainly designed for:
+
 - Students
 - Teachers
-- Academic staff
-- Small educational institutions
+- Small academic classes
+- Anyone who wants to manage basic student marks
 
 ## Main Features
 
-1. Student record management
-2. Grade calculation
-3. Student search
-4. Highest scorer report
-5. Input validation
-6. JSON data storage
+- Add student records
+- View student records
+- Search students using roll number
+- Calculate average marks
+- Assign grades automatically
+- Find the highest scorer
+- Update student marks
+- Delete student records
+- Store data using JSON
+
+## Technologies Used
+
+- Python 3
+- JSON
+- Git
+- GitHub
+
+## Expected Outcome
+
+The project provides a simple way to manage student marks and reduces the need for manual calculations.
+
+It also demonstrates the use of basic Python programming concepts such as functions, loops, conditional statements, lists, dictionaries, file handling, and JSON data storage.
