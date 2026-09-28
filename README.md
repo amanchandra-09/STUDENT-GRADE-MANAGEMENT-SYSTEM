@@ -2,48 +2,62 @@
 
 ## Project Overview
 
-The Student Grade Management System is a Python-based application used to manage student academic records.
+The Student Grade Management System is a Python project made to manage student marks and basic academic records.
 
-The system allows users to add, view, search, update and delete student records. It also calculates student averages, assigns grades and identifies the highest-scoring student.
+The program allows the user to add student details, view student records, search for a student, find the highest scorer, update marks, and delete student records.
 
-Student data is stored permanently in a JSON file.
+The student information is saved in a JSON file so that the data is not lost when the program is closed.
 
 ## Features
 
-- Add student records
+- Add student details
 - View all student records
-- Search students using roll number
-- Calculate student average
-- Assign grades automatically
+- Search for a student using roll number
+- Calculate average marks
+- Automatically assign grades
 - Find the highest scorer
 - Update student marks
 - Delete student records
-- Validate student information
-- Store data using JSON
+- Save student data in JSON format
+- Basic validation for marks
+
+## Subjects
+
+The system currently stores marks for:
+
+- Python
+- Maths
+- English
+
+## Grading System
+
+| Average Marks | Grade |
+|---------------|-------|
+| 90 - 100      | A+    |
+| 80 - 89       | A     |
+| 70 - 79       | B     |
+| 60 - 69       | C     |
+| 50 - 59       | D     |
+| Below 50      | F     |
 
 ## Technologies Used
 
-- Python
+- Python 3
 - JSON
 - Git
 - GitHub
 
-## Project Structure
+## How the Program Works
+
+When the program starts, it displays a menu with different options.
 
 ```text
-Student-Grade-Management/
-│
-├── main.py
-├── students.py
-├── grades.py
-├── validation.py
-├── storage.py
-├── search.py
-├── reports.py
-├── ui.py
-│
-├── data/
-│   └── students.json
-│
-├── README.md
-└── statement.md
+===== STUDENT GRADE MANAGEMENT SYSTEM =====
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Highest Scorer
+5. Update Student
+6. Delete Student
+7. Exit
