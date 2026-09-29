@@ -35,12 +35,10 @@ The project is mainly designed for:
 - Find the highest scorer
 - Update student marks
 - Delete student records
-- Store data using JSON
 
 ## Technologies Used
 
 - Python 3
-- JSON
 - Git
 - GitHub
 
@@ -48,4 +46,4 @@ The project is mainly designed for:
 
 The project provides a simple way to manage student marks and reduces the need for manual calculations.
 
-It also demonstrates the use of basic Python programming concepts such as functions, loops, conditional statements, lists, dictionaries, file handling, and JSON data storage.
+It also demonstrates the use of basic Python programming concepts such as functions, loops, conditional statements, lists, dictionaries, and file handling.
