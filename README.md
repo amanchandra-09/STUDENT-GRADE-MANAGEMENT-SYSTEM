@@ -1,29 +1,29 @@
 # Student Grade Management System
 
-## Project Overview
+## Project Description
 
-The Student Grade Management System is a Python project made to manage student marks and basic academic records.
+The Student Grade Management System is a Python project used to manage marks of the students.
 
-The program allows the user to add student details, view student records, search for a student, find the highest scorer, update marks, and delete student records.
+The software allows the user to input student details, view student records, search for a student, find the highest scorer, update marks, and delete student records.
 
-The student information is saved in a JSON file so that the data is not lost when the program is closed.
+The data of the students is stored in a JSON file to ensure that the data does not get deleted after the program is closed.
 
 ## Features
 
 - Add student details
 - View all student records
-- Search for a student using roll number
-- Calculate average marks
-- Automatically assign grades
+- Search for a student by using the roll number
+- Average marks calculation
+- Automatic grade assignment
 - Find the highest scorer
 - Update student marks
 - Delete student records
-- Save student data in JSON format
-- Basic validation for marks
+- Storing student data in JSON format
+- Marks validation
 
 ## Subjects
 
-The system currently stores marks for:
+The current subjects in the system are:
 
 - Python
 - Maths
@@ -40,16 +40,16 @@ The system currently stores marks for:
 | 50 - 59       | D     |
 | Below 50      | F     |
 
-## Technologies Used
+## Technologies
 
 - Python 3
 - JSON
 - Git
 - GitHub
 
-## How the Program Works
+## Working of the Software
 
-When the program starts, it displays a menu with different options.
+On starting the software, a menu is displayed which shows different options.
 
 ```text
 ===== STUDENT GRADE MANAGEMENT SYSTEM =====
